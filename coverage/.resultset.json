@@ -15,7 +15,8 @@
           null,
           null,
           1,
-          1,
+          2,
+          2,
           null,
           null
         ]
@@ -36,7 +37,28 @@
           null,
           null,
           1,
+          2,
           null,
+          null,
+          1,
+          2,
+          24,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/poros/merchant.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          202,
+          202,
           null,
           null,
           null
@@ -50,28 +72,36 @@
           null,
           null,
           1,
+          2,
+          null,
           null,
           1,
           2,
           null,
+          null,
+          1,
+          null,
+          1,
+          6,
+          null,
           null
         ]
       },
-      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/poros/merchant.rb": {
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/poros/item.rb": {
         "lines": [
           1,
           1,
           null,
-          null,
           1,
-          200,
-          200,
+          24,
+          null,
+          null,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1676488431
+    "timestamp": 1676490245
   }
 }

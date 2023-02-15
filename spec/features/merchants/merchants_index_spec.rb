@@ -5,6 +5,12 @@ RSpec.describe "merchants index page" do
     json_response = File.read('spec/fixtures/merchants_response.json')
     stub_request(:get, "http://localhost:3000/api/v1/merchants")
       .to_return(status: 200, body: json_response)
+    json_response2 = File.read('spec/fixtures/merchant_four_response.json')
+    stub_request(:get, "http://localhost:3000/api/v1/merchants/4")
+      .to_return(status: 200, body: json_response2)
+    response_two = File.read('spec/fixtures/merchant_four_items_response.json')
+    stub_request(:get, "http://localhost:3000/api/v1/merchants/4/items")
+      .to_return(status: 200, body: response_two)
     visit merchants_path
   end
 
@@ -25,8 +31,8 @@ RSpec.describe "merchants index page" do
       expect(page).to have_link("Osinski, Pollich and Koelpin")
       expect(page).to have_link("Bechtelar, Jones and Stokes")
       expect(page).to have_link("Glover Inc")
-      click_link("Schroeder-Jerde")
-      expect(current_path).to eq(merchant_path(1))
+      click_link("Cummings-Thiel")
+      expect(current_path).to eq(merchant_path(4))
     end
   end
 

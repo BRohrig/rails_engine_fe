@@ -8,6 +8,7 @@ RSpec.describe "merchant show page" do
     response_two = File.read('spec/fixtures/merchant_four_items_response.json')
     stub_request(:get, "http://localhost:3000/api/v1/merchants/4/items")
       .to_return(status: 200, body: response_two)
+    visit merchant_path(4)
   end
 
   it 'displays the merchant name and all their items' do
