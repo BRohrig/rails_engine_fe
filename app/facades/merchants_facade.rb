@@ -5,4 +5,8 @@ class MerchantsFacade
     end
   end
 
+  def self.find_merchant(id)
+
+  end
+
 end
