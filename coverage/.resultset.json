@@ -1,0 +1,69 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/controllers/merchants_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/facades/merchants_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          200,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/services/merchant_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/poros/merchant.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          200,
+          200,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1676488245
+  }
+}
