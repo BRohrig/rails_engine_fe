@@ -8,6 +8,9 @@ RSpec.describe "items index page" do
     json_response2 = File.read('spec/fixtures/item_ten_response.json')
     stub_request(:get, "http://localhost:3000/api/v1/items/10")
       .to_return(status: 200, body: json_response2)
+    json_response3 = File.read('spec/fixtures/merchant_one_response.json')
+    stub_request(:get, "http://localhost:3000/api/v1/merchants/1")
+      .to_return(status: 200, body: json_response3)
     visit items_path
   end
 
@@ -25,10 +28,12 @@ RSpec.describe "items index page" do
     within "#item_list" do
       click_link("Item Quidem Suscipit")
       expect(current_path).to eq(item_path(10))
-      expect(page).to have_content("Description: Reiciendis sed aperiam culpa animi laudantium. Eligendi veritatis sint dolorem asperiores. Earum alias illum eos non rerum.")
-      expect(page).to have_content("Unit Price: $340.18")
-      expect(page).to have_content("Merchant: Schroeder-Jerde")
     end
+
+    expect(page).to have_content("Item Quidem Suscipit")
+    expect(page).to have_content("Description: Reiciendis sed aperiam culpa animi laudantium. Eligendi veritatis sint dolorem asperiores. Earum alias illum eos non rerum.")
+    expect(page).to have_content("Unit Price: $340.18")
+    expect(page).to have_content("Merchant: Schroeder-Jerde")
 
   end
 

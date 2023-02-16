@@ -7,7 +7,7 @@
           null
         ]
       },
-      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/controllers/merchants_controller.rb": {
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/controllers/items_controller.rb": {
         "lines": [
           1,
           1,
@@ -15,8 +15,10 @@
           null,
           null,
           1,
-          2,
-          2,
+          1,
+          1,
+          null,
+          null,
           null,
           null
         ]
@@ -24,6 +26,63 @@
       "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/controllers/application_controller.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/facades/items_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          122,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/services/item_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          3,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/poros/item.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          147,
+          147,
+          147,
+          147,
+          147,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -37,7 +96,7 @@
           null,
           null,
           1,
-          2,
+          3,
           null,
           null,
           1,
@@ -57,8 +116,8 @@
           null,
           1,
           null,
-          202,
-          202,
+          203,
+          203,
           null,
           null,
           null
@@ -72,7 +131,7 @@
           null,
           null,
           1,
-          2,
+          3,
           null,
           null,
           1,
@@ -82,26 +141,26 @@
           1,
           null,
           1,
-          6,
+          7,
           null,
           null
         ]
       },
-      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/poros/item.rb": {
+      "/Users/bradyrohrig/turing_work/3mod/projects/rails_engine_fe/app/controllers/merchants_controller.rb": {
         "lines": [
           1,
           1,
+          2,
+          null,
           null,
           1,
-          24,
-          null,
-          null,
-          null,
+          2,
+          2,
           null,
           null
         ]
       }
     },
-    "timestamp": 1676490245
+    "timestamp": 1676516789
   }
 }
