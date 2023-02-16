@@ -1,0 +1,12 @@
+{
+  "data": {
+    "id": "10",
+    "type": "item",
+    "attributes": {
+      "name": "Item Quidem Suscipit",
+      "description": "Reiciendis sed aperiam culpa animi laudantium. Eligendi veritatis sint dolorem asperiores. Earum alias illum eos non rerum.",
+      "unit_price": 340.18,
+      "merchant_id": 1
+    }
+  }
+}
